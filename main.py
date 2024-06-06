@@ -130,10 +130,10 @@ def plot_system_output(y, title):
     fig.suptitle(title)
 
     labels = [
-        ('Przemieszczenie wózka', 'Droga [m]'),
-        ('Prędkość wózka', 'Prędkość [m/s]'),
-        ('Kąt wychylenia wahadła', 'Wychylenie wahadła [rad]'),
-        ('Prędkość kątowa wahadła', 'Prędkość kątowa [rad/s]')
+            ('Cart Displacement', 'Displacement [m]'),
+            ('Cart Velocity', 'Velocity [m/s]'),
+            ('Pendulum Angle', 'Pendulum Deflection [rad]'),
+            ('Pendulum Angular Velocity', 'Angular Velocity [rad/s]')
     ]
 
     for i, ax in enumerate(axs.flat):
